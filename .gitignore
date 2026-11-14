@@ -1,0 +1,88 @@
+# ============================================================
+# 2ndGM Chess App — Root .gitignore
+# ============================================================
+
+# ---------------------------
+# Environment / Secrets
+# ---------------------------
+# Never commit real .env files. Use .env.example as the template.
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+mobile/.env
+mobile/.env.local
+
+# ---------------------------
+# Python (backend)
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+*.so
+
+# ---------------------------
+# Node / React Native / Expo (mobile)
+# ---------------------------
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+
+# Generated native folders (Expo managed workflow)
+/mobile/ios/
+/mobile/android/
+
+# ---------------------------
+# OS artefacts
+# ---------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------
+# Certificates & Keys
+# ---------------------------
+*.pem
+*.key
+*.p12
+*.p8
+*.jks
+*.mobileprovision
+
+.env
+backend/.env
+__pycache__/
+*.pyc
